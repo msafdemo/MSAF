@@ -1,0 +1,25 @@
+suffixes_to_add_for_straight_acc:
+- 2.0_0.0
+- 2.0_0.2
+- 2.0_1.0
+- 2.0_2.0
+suffixes_to_add_for_straight_vel:
+- 0.0
+- 1.0
+- 5.0
+- 15.0
+suffixes_to_add_for_straight_vel_acc:
+- 2.0_0.0
+- 2.0_0.2
+- 2.0_1.0
+- 2.0_2.0
+suffixes_to_add_for_turning_yaw:
+- 3.0
+- 6.0
+- 9.0
+- 12.0
+suffixes_to_add_for_turning_yaw_vel:
+- 3.0
+- 9.0
+- 12.0
+- 18.0

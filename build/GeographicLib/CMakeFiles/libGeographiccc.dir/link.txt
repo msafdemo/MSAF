@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibGeographiccc.a CMakeFiles/libGeographiccc.dir/src/LocalCartesian.cpp.o CMakeFiles/libGeographiccc.dir/src/Geocentric.cpp.o CMakeFiles/libGeographiccc.dir/src/Math.cpp.o
+/usr/bin/ranlib liblibGeographiccc.a

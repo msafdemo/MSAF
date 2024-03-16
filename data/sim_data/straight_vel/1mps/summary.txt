@@ -1,0 +1,26 @@
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_vel/1mps
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+

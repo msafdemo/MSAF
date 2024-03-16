@@ -1,0 +1,8 @@
+2024-03-16 22:40:03 INFO: Executing Step: Adaptively rename motion files based on parameters
+2024-03-16 22:40:03 ERROR: Execution failed: python /home/test/MSAF/src/motion_data_generator/src/param_adapter.py
+  File "/home/test/MSAF/src/motion_data_generator/src/param_adapter.py", line 13
+    if isinstance(value, int):git branch -M main
+                                  ^
+SyntaxError: invalid syntax
+
+2024-03-16 22:40:03 ERROR: Step 'Adaptively rename motion files based on parameters' failed. Aborting the remaining steps.

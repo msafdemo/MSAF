@@ -1,0 +1,98 @@
+# main function
+path_root:
+  workspace: /home/test/MSAF
+
+# 1.1 motion data generator
+motion_state: turning_yaw_vel
+# straight_vel  straight_acc 
+# turning_yaw  turning_yaw_vel
+
+sensor_noise_levels: 
+  imu_noise: 'no_error'  
+  gps_noise: 'no_error'   
+  odom_vel_noise: 'no_error' 
+  lidar_noise: 'no_error' 
+# no_error, high_accuracy, mid_accuracy, low_accuracy
+
+sensor_update_rates:
+  imu_hz: 100
+  odo_hz: 100
+  gps_hz: 10
+  lidar_hz: 10 
+
+# 1.2 error state kalman filter
+paths_for_eskf:
+  eskf_build_path: build/MSAF
+  temp_file_for_eskf_batch: config/motion_config.yaml
+  obs_result_file_path: data/obs_result/
+
+calculateFrequency: 0
+
+# ESKF noise
+prior: [1.0e-6, 1.0e-6, 1.0e-6, 1.0e-6, 1.0e-6]
+init_dx: [1.0e-6, 1.0e-6, 1.0e-6, 1.0e-6, 1.0e-6]
+# process noise
+gyro_noise: 1.0e-6
+acc_noise: 1.0e-6
+gyro_bias_noise: 1.0e-6
+acc_bias_noise: 1.0e-6
+# measurement noise
+lidar_posi_noise: 1.0e-6
+lidar_ori_noise: 1.0e-6
+odom_vel_noise: 1.0e-6
+gnss_posi_nosie: 1.0e-6
+
+enable_chi_squared_test: false
+fusion_strategy: gnss_odom_lidar
+# gnss （xyz）
+# lidar （xyz,yaw）
+# gnss_odom (xyz,v)
+# gnss_lidar （xyz、yaw）
+# gnss_odom_lidar （xyz,v,yaw）
+
+# We use a wheel speed sensor to simulate the velocity of GNSS. Note that the gnss_odom model is unable to resist GPS spoofing, because the odometer only provides velocity information and cannot provide positional and attitudinal information. Therefore, it is quite prone to divergence in the face of GPS spoofing
+
+# 3.injector
+enabled_one_stage_spoofing: 1
+enabled_two_stage_spoofing: 0
+
+# one stage injection
+spoofing_count: 5
+# for straight
+spoofing_dev_straight: 2
+spoofing_time: 10
+# for turning
+spoofing_dev_turning: 12
+injectionPoints_for_yaw: [4, 12, 18]
+injectionPoints_for_yaw_vel: [10, 19, 10]
+threshold: 0
+
+# two stage injection
+two_stage_spoofing_time:
+  start: 10
+  end: 20
+spoofing_dev:
+  d: 2
+  f: 1.003
+  lowerbound: 0.0295
+  upperbound: 4
+spoofing_method: speed  # speed or distance
+speed_threshold: 0.3
+
+# 4.plot
+paths_for_parse_obs_to_yaml:
+  yaml_result_path: data/parse_result/
+
+use_state_label: true
+use_pva_order: false
+
+plot_dimension: 3d  # 2d or 3d
+enable_z_adjust: false 
+filter_threshold: 0.6
+
+Overlap: false
+
+show_percentage: 1
+
+expected_deviation_for_straight: 1
+expected_deviation_for_turning: 2

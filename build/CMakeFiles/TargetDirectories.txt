@@ -1,0 +1,6 @@
+/home/test/MSAF/build/CMakeFiles/rebuild_cache.dir
+/home/test/MSAF/build/CMakeFiles/edit_cache.dir
+/home/test/MSAF/build/CMakeFiles/MSAF.dir
+/home/test/MSAF/build/GeographicLib/CMakeFiles/rebuild_cache.dir
+/home/test/MSAF/build/GeographicLib/CMakeFiles/edit_cache.dir
+/home/test/MSAF/build/GeographicLib/CMakeFiles/libGeographiccc.dir

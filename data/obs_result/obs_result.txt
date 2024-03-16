@@ -1,0 +1,64 @@
+sub_motion_state: 3degps_1mps
+State 7 , SingularValue: 10.472    , Observability: 1           
+State 6 , SingularValue: 10.037    , Observability: 0.95849555432
+State 8 , SingularValue: 9.5948    , Observability: 0.91624043236
+State 0 , SingularValue: 9.0012    , Observability: 0.859548783 
+State 2 , SingularValue: 9.0006    , Observability: 0.85949159581
+State 1 , SingularValue: 8.9999    , Observability: 0.859428386 
+State 3 , SingularValue: 6.4285    , Observability: 0.61387420112
+State 5 , SingularValue: 5.6167    , Observability: 0.53635363815
+State 4 , SingularValue: 5.3327    , Observability: 0.50923282926
+State 10, SingularValue: 1.0556    , Observability: 0.10080641118
+State 9 , SingularValue: 1.0207    , Observability: 0.09747144801
+State 11, SingularValue: 0.89207   , Observability: 0.08518651191
+State 14, SingularValue: 0.57662   , Observability: 0.055062956165
+State 12, SingularValue: 0.4668    , Observability: 0.044575778387
+State 13, SingularValue: 0.45879   , Observability: 0.04381146555
+sub_motion_state: 9degps_3mps
+State 8 , SingularValue: 12.015    , Observability: 1           
+State 7 , SingularValue: 9.7867    , Observability: 0.81455799158
+State 6 , SingularValue: 9.6671    , Observability: 0.80460288921
+State 0 , SingularValue: 5.3252    , Observability: 0.44321926757
+State 1 , SingularValue: 5.325     , Observability: 0.44320197596
+State 2 , SingularValue: 5.3249    , Observability: 0.44319381917
+State 3 , SingularValue: 3.8031    , Observability: 0.31654036841
+State 4 , SingularValue: 3.0849    , Observability: 0.2567605015
+State 5 , SingularValue: 2.5678    , Observability: 0.21371965167
+State 11, SingularValue: 1.2292    , Observability: 0.10230570439
+State 9 , SingularValue: 1.0703    , Observability: 0.089084828007
+State 10, SingularValue: 0.9507    , Observability: 0.079127478935
+State 12, SingularValue: 0.3183    , Observability: 0.026492436231
+State 13, SingularValue: 0.30218   , Observability: 0.025150804008
+State 14, SingularValue: 0.25886   , Observability: 0.021544956922
+sub_motion_state: 12degps_4mps
+State 8 , SingularValue: 13.159    , Observability: 1           
+State 6 , SingularValue: 10.237    , Observability: 0.77791826546
+State 7 , SingularValue: 10.064    , Observability: 0.76475276344
+State 0 , SingularValue: 4.5006    , Observability: 0.34200495435
+State 1 , SingularValue: 4.5004    , Observability: 0.34199235754
+State 2 , SingularValue: 4.5003    , Observability: 0.34198539067
+State 3 , SingularValue: 3.2142    , Observability: 0.24425386751
+State 4 , SingularValue: 2.6068    , Observability: 0.19809344663
+State 5 , SingularValue: 2.0048    , Observability: 0.15234853415
+State 11, SingularValue: 1.2976    , Observability: 0.098604776637
+State 9 , SingularValue: 1.029     , Observability: 0.078192038619
+State 10, SingularValue: 1.0081    , Observability: 0.076608389924
+State 12, SingularValue: 0.27997   , Observability: 0.021275623902
+State 13, SingularValue: 0.25486   , Observability: 0.019367176397
+State 14, SingularValue: 0.20164   , Observability: 0.01532268716
+sub_motion_state: 18degps_6mps
+State 8 , SingularValue: 17.426    , Observability: 1           
+State 6 , SingularValue: 14.406    , Observability: 0.82672129694
+State 7 , SingularValue: 10.952    , Observability: 0.62847250416
+State 0 , SingularValue: 3.7655    , Observability: 0.21608254217
+State 1 , SingularValue: 3.7653    , Observability: 0.21607541176
+State 2 , SingularValue: 3.7652    , Observability: 0.21606970344
+State 3 , SingularValue: 2.6893    , Observability: 0.15432803584
+State 4 , SingularValue: 2.2343    , Observability: 0.12821493654
+State 11, SingularValue: 1.6367    , Observability: 0.093922550457
+State 5 , SingularValue: 1.4493    , Observability: 0.083171073596
+State 9 , SingularValue: 1.2785    , Observability: 0.073365930886
+State 10, SingularValue: 1.1383    , Observability: 0.065324175078
+State 12, SingularValue: 0.24516   , Observability: 0.014068885939
+State 13, SingularValue: 0.21785   , Observability: 0.012501201227
+State 14, SingularValue: 0.15291   , Observability: 0.0087748316174

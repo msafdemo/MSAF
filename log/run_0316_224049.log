@@ -1,0 +1,569 @@
+2024-03-16 22:40:25 INFO: Executing Step: Adaptively rename motion files based on parameters
+2024-03-16 22:40:25 INFO: Execution successful: python /home/test/MSAF/src/motion_data_generator/src/param_adapter.py
+
+2024-03-16 22:40:25 INFO: Executing Step: Data Generation
+2024-03-16 22:40:28 INFO: Execution successful: python /home/test/MSAF/src/motion_data_generator/src/generator.py
+motion_states: ['0.2mpss', '0mpss', '2mpss', '1mpss']
+Path /home/test/MSAF/data/sim_data/straight_acc does not exist. Creating it.
+motion states: ['0.2mpss', '0mpss', '2mpss', '1mpss']
+imu_err:  {'gyro_arw': array([0., 0., 0.]), 'gyro_b_stability': array([0., 0., 0.]), 'gyro_b': array([0., 0., 0.]), 'gyro_k': array([1., 1., 1.]), 'gyro_s': array([0., 0., 0., 0., 0., 0.]), 'accel_vrw': array([0., 0., 0.]), 'accel_b_stability': array([0., 0., 0.]), 'accel_b': array([0., 0., 0.]), 'accel_k': array([1., 1., 1.]), 'accel_s': array([0., 0., 0., 0., 0., 0.])}
+gps_err:  {'stdp': array([0., 0., 0.]), 'stdv': array([0., 0., 0.])}
+odo_err:  {'scale': 1.0, 'stdv': 0.0}
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/0.2mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/0mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/2mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/1mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/0.2mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/0mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/2mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/1mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/0.2mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/0mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/2mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/1mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/0.2mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/0mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/2mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+------------------------------------------------------------
+Sample frequency of IMU: [fs] = 100 Hz
+Reference frame: 0
+Simulation time duration: 20.0 s
+Simulation runs: 1
+
+------------------------------------------------------------
+Simulation results are saved to /home/test/MSAF/data/sim_data/straight_acc/1mpss
+The following results are saved:
+	time: sample time
+	ref_pos: true LLA pos in the navigation frame
+	ref_vel: true vel in the NED frame
+	ref_att_euler: true attitude (Euler angles, ZYX)
+	ref_accel: true accel in the body frame
+	ref_gyro: true angular velocity in the body frame
+	gps_time: GPS sample time
+	ref_gps: true GPS LLA position and NED velocity
+	gps_visibility: GPS visibility
+	ref_odo: true odometer velocity
+	accel: accel measurements
+	gyro: gyro measurements
+	gps: GPS LLA position and NED velocity measurements
+	odo: odometer velocity measurement
+	ref_att_quat: true attitude (quaternion)
+
+
+2024-03-16 22:40:28 INFO: Executing Step: Plot the Simulated Path from motion_data_generator
+2024-03-16 22:40:30 INFO: Execution successful: python /home/test/MSAF/scripts/plot_ref_path.py
+------------------------module.1.motion_data_generator start------------------
+------------------------module.1.motion_data_generator Done.------------------
+
+2024-03-16 22:40:30 INFO: Executing Step: Execute ESKF and observability analysis
+2024-03-16 22:40:31 INFO: Execution successful: python /home/test/MSAF/scripts/eskf_batch.py
+Argument 1 (motion_state_suffix): 0.2mpss
+Argument 2 (folder_suffix) is empty or not provided.
+Argument 3 (obs_result_path): /home/test/MSAF/data/obs_result/obs_result.txt
+Init local map frame at: 32, 120, -2.45263e-17
+counter_for_while: 199
+predictCounter: 199
+correctCounter : 199
+obs_size: 14
+Qsom size: 2388 x 15
+Ysom size: 2388
+Processing part: 3
+Processing observability instance [Time: 0.1]
+Processing observability instance [Time: 1.6]
+Processing observability instance [Time: 3.1]
+Processing observability instance [Time: 4.6]
+Processing observability instance [Time: 6.1]
+Processing observability instance [Time: 7.6]
+Processing observability instance [Time: 9.1]
+Processing observability instance [Time: 10.6]
+Processing observability instance [Time: 12.1]
+Processing observability instance [Time: 13.6]
+Processing observability instance [Time: 15.1]
+Processing observability instance [Time: 16.6]
+Processing observability instance [Time: 18.1]
+Processing observability instance [Time: 19.6]
+Argument 1 (motion_state_suffix): 0mpss
+Argument 2 (folder_suffix) is empty or not provided.
+Argument 3 (obs_result_path): /home/test/MSAF/data/obs_result/obs_result.txt
+Init local map frame at: 32, 120, -2.44929e-17
+counter_for_while: 199
+predictCounter: 199
+correctCounter : 199
+obs_size: 14
+Qsom size: 2388 x 15
+Ysom size: 2388
+Processing part: 3
+Processing observability instance [Time: 0.1]
+Processing observability instance [Time: 1.6]
+Processing observability instance [Time: 3.1]
+Processing observability instance [Time: 4.6]
+Processing observability instance [Time: 6.1]
+Processing observability instance [Time: 7.6]
+Processing observability instance [Time: 9.1]
+Processing observability instance [Time: 10.6]
+Processing observability instance [Time: 12.1]
+Processing observability instance [Time: 13.6]
+Processing observability instance [Time: 15.1]
+Processing observability instance [Time: 16.6]
+Processing observability instance [Time: 18.1]
+Processing observability instance [Time: 19.6]
+Argument 1 (motion_state_suffix): 1mpss
+Argument 2 (folder_suffix) is empty or not provided.
+Argument 3 (obs_result_path): /home/test/MSAF/data/obs_result/obs_result.txt
+Init local map frame at: 32, 120, -2.46597e-17
+counter_for_while: 199
+predictCounter: 199
+correctCounter : 199
+obs_size: 14
+Qsom size: 2388 x 15
+Ysom size: 2388
+Processing part: 3
+Processing observability instance [Time: 0.1]
+Processing observability instance [Time: 1.6]
+Processing observability instance [Time: 3.1]
+Processing observability instance [Time: 4.6]
+Processing observability instance [Time: 6.1]
+Processing observability instance [Time: 7.6]
+Processing observability instance [Time: 9.1]
+Processing observability instance [Time: 10.6]
+Processing observability instance [Time: 12.1]
+Processing observability instance [Time: 13.6]
+Processing observability instance [Time: 15.1]
+Processing observability instance [Time: 16.6]
+Processing observability instance [Time: 18.1]
+Processing observability instance [Time: 19.6]
+Argument 1 (motion_state_suffix): 2mpss
+Argument 2 (folder_suffix) is empty or not provided.
+Argument 3 (obs_result_path): /home/test/MSAF/data/obs_result/obs_result.txt
+Init local map frame at: 32, 120, -2.48265e-17
+counter_for_while: 199
+predictCounter: 199
+correctCounter : 199
+obs_size: 14
+Qsom size: 2388 x 15
+Ysom size: 2388
+Processing part: 3
+Processing observability instance [Time: 0.1]
+Processing observability instance [Time: 1.6]
+Processing observability instance [Time: 3.1]
+Processing observability instance [Time: 4.6]
+Processing observability instance [Time: 6.1]
+Processing observability instance [Time: 7.6]
+Processing observability instance [Time: 9.1]
+Processing observability instance [Time: 10.6]
+Processing observability instance [Time: 12.1]
+Processing observability instance [Time: 13.6]
+Processing observability instance [Time: 15.1]
+Processing observability instance [Time: 16.6]
+Processing observability instance [Time: 18.1]
+Processing observability instance [Time: 19.6]
+------------------------module.2.Sensor Fusion Engine start---------------------
+Debug: obs_result_dir: /home/test/MSAF/data/obs_result
+Debug: filename: obs_result.txt
+Debug: file_path: /home/test/MSAF/data/obs_result/obs_result.txt
+Debug: motion_states: ['0.2mpss', '0mpss', '1mpss', '2mpss']
+Debug: state: 0.2mpss
+Debug: command: ['/home/test/MSAF/build/MSAF', '0.2mpss', '', '/home/test/MSAF/data/obs_result/obs_result.txt']
+Debug: result: CompletedProcess(args=['/home/test/MSAF/build/MSAF', '0.2mpss', '', '/home/test/MSAF/data/obs_result/obs_result.txt'], returncode=0)
+Debug: state: 0mpss
+Debug: command: ['/home/test/MSAF/build/MSAF', '0mpss', '', '/home/test/MSAF/data/obs_result/obs_result.txt']
+Debug: result: CompletedProcess(args=['/home/test/MSAF/build/MSAF', '0mpss', '', '/home/test/MSAF/data/obs_result/obs_result.txt'], returncode=0)
+Debug: state: 1mpss
+Debug: command: ['/home/test/MSAF/build/MSAF', '1mpss', '', '/home/test/MSAF/data/obs_result/obs_result.txt']
+Debug: result: CompletedProcess(args=['/home/test/MSAF/build/MSAF', '1mpss', '', '/home/test/MSAF/data/obs_result/obs_result.txt'], returncode=0)
+Debug: state: 2mpss
+Debug: command: ['/home/test/MSAF/build/MSAF', '2mpss', '', '/home/test/MSAF/data/obs_result/obs_result.txt']
+Debug: result: CompletedProcess(args=['/home/test/MSAF/build/MSAF', '2mpss', '', '/home/test/MSAF/data/obs_result/obs_result.txt'], returncode=0)
+------------------------module.2.Sensor Fusion Engine Done.---------------------
+
+2024-03-16 22:40:31 INFO: Executing Step: Parse Observations
+2024-03-16 22:40:31 INFO: Execution successful: python /home/test/MSAF/scripts/parse_obs_to_yaml.py
+------------------------module.3.State Dependency Analysis start---------------
+------------------------module.3.State Dependency Analysis Done----------------
+
+2024-03-16 22:40:31 INFO: Executing Step: Plot Radar
+2024-03-16 22:40:34 INFO: Execution successful: python /home/test/MSAF/scripts/plot_radar.py
+
+2024-03-16 22:40:34 INFO: Executing Step: Plot K Values
+2024-03-16 22:40:37 INFO: Execution successful: python /home/test/MSAF/scripts/plot_k_values.py
+Debug: base_path: data/K_values/straight_acc/
+
+2024-03-16 22:40:37 INFO: Executing Step: Plot Spoof_path
+2024-03-16 22:40:39 INFO: Execution successful: python /home/test/MSAF/scripts/plot_spoof_path_straight.py
+
