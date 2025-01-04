@@ -6,6 +6,53 @@ import logging
 import datetime
 import glob
 
+def upgrade_libstdcxx():
+    """
+    Upgrades libstdc++ to ensure support for GLIBCXX_3.4.29.
+    """
+    print("Checking and upgrading libstdc++ if needed...")
+
+    # Check current GLIBCXX versions
+    check_command = "strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX"
+    try:
+        result = subprocess.run(check_command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+        output = result.stdout
+        if "GLIBCXX_3.4.29" in output:
+            print("libstdc++ is already up-to-date.")
+            return
+        else:
+            print("libstdc++ does not support GLIBCXX_3.4.29. Proceeding with upgrade.")
+    except subprocess.CalledProcessError as e:
+        print("Failed to check libstdc++ version. Please ensure it exists.")
+        return
+
+    # Add PPA and upgrade
+    commands = [
+        "sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test",
+        "sudo apt update",
+        "sudo apt install -y libstdc++6"
+    ]
+    for command in commands:
+        try:
+            print(f"Running command: {command}")
+            result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+            print(result.stdout)
+        except subprocess.CalledProcessError as e:
+            print(f"Command failed: {command}")
+            return
+
+    # Re-check libstdc++ version
+    try:
+        result = subprocess.run(check_command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+        output = result.stdout
+        if "GLIBCXX_3.4.29" in output:
+            print("Successfully upgraded libstdc++ to support GLIBCXX_3.4.29.")
+        else:
+            print("Failed to upgrade libstdc++ to support GLIBCXX_3.4.29.")
+    except subprocess.CalledProcessError:
+        print("Failed to re-check libstdc++ version.")
+
+
 def get_execution_steps(motion_state):
     steps = [
         # model1:motion_data_generator
@@ -93,6 +140,9 @@ def execute_steps(workspace, steps):
 
 def main():
     initialize_logging()
+
+    upgrade_libstdcxx()
+
     config_path = "config/config.yaml"
     cfg = read_config(config_path)
 
