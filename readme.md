@@ -1,6 +1,6 @@
-# USENIX Security 2025 AE
+# USENIX Security 2025
 
-This repository contains the artifacts associated with the USENIX Security 2025 paper titled **"The Ghost Navigator: Revisiting the Hidden Vulnerabilities in Localization for Autonomous Driving."**
+This repository contains the artifacts associated with the USENIX Security 2025 paper titled **"The Ghost Navigator: Revisiting the Hidden Vulnerabilities of Localization in Autonomous Driving."**
 
 The `Motion Sensitive Analysis Framework (MSAF)` is designed to assess the motion state vulnerabilities in LiDAR-based localization systems.
 
